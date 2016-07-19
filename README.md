@@ -8,10 +8,10 @@ Files :
 	mytopo.py	: Custom Topology
 --------------------------------------------------------------------------------
 System :
-	All development and testing was done on an Ubuntu 14.04 machine. The mininet VM was not used, instead all files corresponding to pox and mininet were downloaded and run locally
+All development and testing was done on an Ubuntu 14.04 machine. The mininet VM was not used, instead all files corresponding to pox and mininet were downloaded and run locally
 --------------------------------------------------------------------------------
-Build and Run :
-	Firstly, place the of_tutorial.py and router1.py files inside the xyz/pox/pox/misc subfolder, where xyz is the location of your pox files. Place the mytopo.py file in the abc/mininet/custom subfolder, where abc is the location of your mininet files. For example, if your pox files are located in your Desktop, you would have to 
+Build and Run :	
+Firstly, place the of_tutorial.py and router1.py files inside the xyz/pox/pox/misc subfolder, where xyz is the location of your pox files. Place the mytopo.py file in the abc/mininet/custom subfolder, where abc is the location of your mininet files. For example, if your pox files are located in your Desktop, you would have to 
         copy the first two files to Desktop/pox/pox/misc
 To run and test the above scripts, first open two terminals 
 
