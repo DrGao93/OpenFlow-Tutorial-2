@@ -9,7 +9,7 @@ Submission :
 --------------------------------------------------------------------------------
 System :
 	All development and testing was done on an Ubuntu 14.04 machine. The 
-mininet VM was not used, instead all files corresponding to pox and mininet were
+mininet VM was not used, instead all files corresponding to pox and mininet were 
 downloaded and run locally
 --------------------------------------------------------------------------------
 Build and Run :
@@ -32,7 +32,7 @@ In one terminal (system from where you are running pox), enter
   $./pox.py log.level --DEBUG misc.of_tutorial
 In another terminal (system in which you are running mininet, enter
   $sudo mn --topo single,3 --mac --switch ovsk --controller remote
-Test commands such as ping and iperf can now be successfully run in the mininet
+Test commands such as ping and iperf can now be successfully run in the mininet 
 terminal.
 
 To test the router,
@@ -40,7 +40,7 @@ In one terminal (system from where you are running pox), enter
   $./pox.py log.level --DEBUG misc.router1 misc.full_payload 
 In another terminal (system in which you are running mininet, enter
   $sudo mn --custom mytopo.py --topo mytopo --mac --switch ovsk --controller remote
-Test commands such as ping and iperf can now be successfully run in the mininet
+Test commands such as ping and iperf can now be successfully run in the mininet 
 terminal.
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
