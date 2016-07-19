@@ -13,7 +13,7 @@ Firstly, place the of_tutorial.py and router1.py files inside the xyz/pox/pox/mi
 To run and test the above scripts, first open two terminals.
   
 To test the learning switch, In one terminal (system from where you are running pox), enter  
-  $./pox.py log.level --DEBUG misc.of_tutorial  
+  *$./pox.py log.level --DEBUG misc.of_tutorial*  
 In another terminal (system in which you are running mininet, enter  
   $sudo mn --topo single,3 --mac --switch ovsk --controller remote  
 Test commands such as ping and iperf can now be successfully run in the mininet terminal.
